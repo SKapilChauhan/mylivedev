@@ -1,0 +1,247 @@
+.checkoutPanel {
+	box-shadow: 0 5px 5px rgba(0, 0, 0, 0.05);
+	background-color: #ffffff;
+	color: #333333;
+	font-size: 0.24rem;
+	line-height: 15px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.checkoutPanelHeader {
+	margin-top: 10px;
+	background-color: #fff;
+	padding: 10px;
+	display: flex;
+	position: relative;
+	border-bottom: 1px solid #e2e2e2;
+}
+.checkoutPanelBox {
+	padding: 15px;
+	display: flex;
+}
+.checkoutPanelBox .text {
+	flex: 1;
+}
+.checkoutPanelBox .value {
+	flex: 1;
+	font-size: 0.24rem;
+	font-weight: 500;
+	line-height: 15px;
+	text-align: right;
+}
+.caddressItem {
+	display: flex;
+	align-items: center;
+	padding: 5px 10px;
+	line-height: 20px;
+	position: relative;
+}
+.caddressItem .to {
+	position: absolute;
+	right: 20px;
+	top: 50%;
+	transform: translateY(-50%);
+	-moz-transform: translateY(-50%);
+	-webkit-transform: translateY(-50%);
+}
+.caddressItem .ico {
+	flex: 0 0 50px;
+}
+.caddressItem .icon-address {
+	font-size: 30px;
+	color: #fb9a27
+}
+.caddressItem .icon-phone {
+	font-size: 30px;
+	color: #fb9a27
+}
+.caddressItem .username {
+	font-weight: bold;
+}
+
+.paymentList {
+	display: flex;
+}
+.paymentListItem {
+	flex: 1
+}
+.amountListBox {
+	background-color: #ffffff;
+	padding: 0px 20px;
+}
+.amountListBox li{
+	display: flex;
+	padding: 10px 0px
+}
+.amountListBox li .text {
+	flex: 1;
+	font-size: 0.24rem;
+}
+.amountListBox li .value {
+	flex: 1;
+	text-align: right;
+	color: #ed676d
+}
+.totalAmountBox {
+	padding: 10px 20px;
+	box-shadow: -1px 5px 5px rgba(7, 0, 2, 0.1);
+	background-color: #fb9a27;
+	color: #fff;
+	display: flex;
+}
+.totalAmountBox .text {
+	flex: 1;
+	font-size: 0.26rem;
+}
+.totalAmountBox .value {
+	flex: 1;
+	text-align: right;
+	font-size: 0.24rem;
+}
+
+/*产品列表*/
+.checkout-sitem {
+	margin: 20px 8px;
+	border: 1px solid #cccccc;
+	padding: 5px;
+	background-color: #ffffff;
+}
+.cartProductList {
+	margin-top: 10px;
+}
+.cartProductItem {
+	display: flex;
+	padding: 10px 0.2rem;
+	background-color: #ffffff;
+	margin-bottom: 10px;
+	position: relative;
+}
+.cartProductItem .check {
+	flex: 0 0 20px;
+	display: flex;
+	align-items: center;
+	margin-right: 10px;
+}
+.cartProductItem .imginfo {
+	flex: 0 0 1.68rem;
+	overflow: hidden;
+	margin-right: 10px;
+}
+.cartProductItem img {
+	width: 100%;
+	margin: auto;
+	display: inline-block;
+	vertical-align: middle;
+}
+.cartProductItem .infobox {
+	flex: 1;
+	position: relative;
+	padding-bottom: 44px;
+}
+.cartProductItem .productname {
+	color: #333333;
+	line-height: 14px;
+	max-height: 14px;
+	font-size: 0.24rem;
+	overflow: hidden;
+	padding-right: 26px;
+}
+.cartProductItem .productprice {
+	display: flex;
+	margin-top: 5px;
+}
+.cartProductItem .productprice .text {
+	flex: 1;
+	font-size: 0.24rem;
+}
+.cartProductItem .productprice .value {
+	flex: 1;
+	text-align: right;
+	font-size: 0.24rem;
+	color: #ed676d;
+}
+.cartProductItem .attr {
+	margin-top: 5px;
+    display: flex;
+    color: #999999;
+    font-size: 12px;
+}
+.cartProductItem .attr>span {
+	margin-right: 5px;
+}
+.cartProductItem .attr .text {
+	flex: 1;
+	font-size: 0.24rem;
+}
+.cartProductItem .qtybox {
+	position: absolute;
+	width: 100%;
+	bottom: 0px;
+	align-items: center;
+	 justify-content: flex-end;
+}
+.cartProductItem .qtybox .text {
+	margin-right: 10px;
+	font-size: 0.24rem;
+}
+.cartProductItem .qtybox .input {
+	flex: unset;
+	margin-left: auto;
+}
+.cartProductItem .removebtn {
+	position: absolute;
+	right: 20px;
+	top: 7px;
+	cursor: pointer;
+}
+.checkout-sitem .price-b {
+	padding: 10px 10px 10px 1.7rem;
+}
+.checkout-sitem .price-item {
+	padding: 5px 0px;
+	display: flex;
+	align-items: center;
+}
+.checkout-sitem .price-item .text {
+	flex: 1;
+	width: 50%;
+}
+.checkout-sitem .price-item .value {
+	flex: 1;
+	width: 50%;
+	text-align: right;
+}
+.mobileFooter .footNavInfo li.footerTotal {
+	padding: 0px 0px 0px 0.2rem;
+    width: 50%;
+    background-color: rgb(255, 255, 255);
+    color: rgb(68, 68, 68);
+    line-height: 49px;
+    text-align: left;
+    line-height: 49px;
+}
+.checkoutFooter .totalBox {
+	display: flex;
+	align-items: center;
+	height: 49px;
+	font-size: 0.24rem;
+}
+.checkoutFooter .totalInfo {
+	flex: 1;
+	line-height: 14px;
+}
+.checkoutFooter .totalInfo .price{
+	color: #ff5a61;
+	font-size: 0.3rem;
+	font-weight: bold;
+}
+.checkoutFooter .totalInfo .cartItems {
+	font-size: 12px;
+}
+.payBtn {
+	width: 100%; 
+	background:  #ff5a61;
+	background-image: linear-gradient(45deg, #ed676d 0%, #ff758c 99%, #ff758c 100%);
+	color: #ffffff;
+	line-height: 49px
+}

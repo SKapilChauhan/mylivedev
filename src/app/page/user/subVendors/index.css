@@ -1,0 +1,104 @@
+.accountVendorBox .boxCwarn {
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+    padding: 20px 0.44rem;
+    color: #333;
+    font-size: 0.24rem;
+}
+.accountVendorBox .cwarnIcon {
+    flex: 0 0 20px;
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    line-height: 20px;
+    color: #fff;
+    border-radius: 50%;
+    text-align: center;
+    background-color: #ed676d;
+}
+.tVendorHeader {
+    padding: 10px;
+    background-color: #d9e9f3;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #eee;
+}
+.tVendorHeader>div{
+    flex: 1;
+    text-align: left;
+    background-color: #d9e9f3;
+}
+.tVendorHeader .rowNumberTd {
+    flex: 0 0 1rem;
+    width: 1rem;
+}
+.vendorListBox {
+    background-color: #ffffff;
+}
+.vendorListItem {
+    background-color: #ffffff;
+    border-bottom: 1px solid #e2e2e2;
+}
+.vendorListItem .boxListTr {
+    font-size: 0.24rem;
+    padding: 0.3rem 0px;
+    display: flex;
+    justify-content: space-between;
+}
+.vendorListItem .boxTd {
+    flex: 1;
+    padding: 0px 2px 0px 0px;
+}
+.vendorListItem .rowNumberTd {
+    flex: 0 0 1.2rem;
+    padding: 0px 2px 0px 15px;
+}
+.vendorListItem .nickname {
+    display: block;
+    max-width: 75px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap; 
+    overflow: hidden;
+}
+.vendorListItem .childrenBox {
+    padding: 20px 0px 20px 0px;
+    background-color: #f9f9f9;
+}
+.accountVendorBox .moreBtn {
+    display: block;
+    text-align: center;
+    color: #00f;
+}
+.childrenVendorItem {
+    padding: 0px 5px 0px 10px;
+}
+.childrenVendorItem .boxListTr {
+    border-bottom: 0px;
+}
+.childrenVendorItem .boxTd:first-child .rowNumber {
+    padding-left: 0.8rem;
+}
+.vendorListTable .addTimeBoxTd {
+    min-width: 110px;
+}
+.vendorListItem .udLink {
+    padding: 14px 8px;
+}
+.vendorListItem .ud {
+    position: relative;
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    transform: rotate(45deg);
+    border: 1px solid #999;
+    border-bottom-color: #fff;
+    border-right-color: #fff;
+}
+.vendorListItem .ud.down {
+    border: 1px solid #999;
+    border-top-color: #fff;
+    border-left-color: #fff;
+    top: -3px;
+}

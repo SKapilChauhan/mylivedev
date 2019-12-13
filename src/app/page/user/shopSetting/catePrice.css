@@ -1,0 +1,64 @@
+.accountCatePriceSetBox {
+    background-color: #fff;
+    padding: 0.1rem 0.25rem;
+    margin-bottom: 0.2rem;
+}
+.accountCatePriceSetBox .radioBox {
+    display: flex;
+    justify-content: space-around;
+    font-weight: bold;
+    margin: 0.3rem 0.1rem;
+}
+.accountCatePriceSetBox .radioBox input[type="radio"] {
+    position: absolute;
+    clip: rect(0, 0, 0, 0);
+}
+.accountCatePriceSetBox .radioBox input[type="radio"]:checked + label::before {
+    background-color: #ed676d;
+    background-clip: content-box;
+    padding: .2em;
+}
+.accountCatePriceSetBox .radioBox input[type="radio"] + label::before {
+    content: "\A0";
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 18px;
+    width: 0.36rem;
+    height: 0.36rem;
+    box-sizing: border-box;
+    margin-right: 0.1rem;
+    border-radius: 50%;
+    border: 2px solid #ed676d;
+}
+.catePriceSettingList {
+    background-color: #fff;
+    padding: 10px;
+}
+.catePriceSettingTable .boxListTr {
+    font-size: 0.24rem;
+    padding: 0.05rem 0px;
+    display: flex;
+    justify-content: space-between;
+}
+.catePriceSettingTable .boxTd {
+    flex: 1;
+    padding: 0px 2px 0px 0px;
+}
+.catePriceSettingTable .boxTd .inputP {
+	display: flex;
+    align-items: center;
+}
+.catePriceSettingTable .boxTd input {
+    display: block;
+	height: 30px;
+	line-height: 30px;
+}
+.catePriceSettingTable .boxTd .pspan {
+	flex: 0 0 20px;
+    padding-left: 5px;
+    font-size: 0.24rem;
+}
+.catePriceSettingTable .rowNumberTd {
+    flex: 0 0 1.2rem;
+    padding: 0px 2px 0px 15px;
+}

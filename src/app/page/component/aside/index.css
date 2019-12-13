@@ -1,0 +1,168 @@
+/*侧边栏*/ 
+.mobileAsideBox {
+    visibility: hidden;
+}
+.mobileAsideBox.show {
+    visibility: visible;
+}
+.mobileAside {
+    height: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 102;
+    left: 0%;
+    width: 85%;
+    transition: 0.05s ease-out;
+    -webkit-transition: 0.05s ease-out;
+    -moz-transition: 0.05s ease-out;
+    overflow: hidden;
+    overflow-y: auto;
+    transition: -webkit-transform .5s ease-in-out;
+    -webkit-transition: -webkit-transform .5s ease-in-out;
+    transition: transform .5s ease-in-out;
+    transition: transform .5s ease-in-out,-webkit-transform .5s ease-in-out;
+    background-color: #fff;
+    padding-bottom: 60px;
+}
+
+.mobileAside .search {
+    padding: 5px 0px;
+}
+.mobileAside input {
+    display:block;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    height: 34px;
+    line-height: 34px;
+    width: 100%;
+}
+
+.mobileAside .mobileasidepanel>ul>li {
+    padding-bottom: 0.3rem;
+    color: #333333;
+}
+.mobileAside .mobileasidepanel>ul>li>div{
+    position: relative;
+}
+.mobileAside .mobileasidepanel>ul>li .ud{
+    position: absolute;
+    right: 0;
+    display: inline-block;
+    width: 0.14rem;
+    height: 0.14rem;
+    transform: rotate(45deg);
+    border: 1px solid #999;
+
+    border-bottom-color: #fff;
+    border-right-color: #fff;
+    top: 0.05rem;
+}
+.mobileAside .mobileasidepanel>ul>li .ud.down{
+    border: 1px solid #999;
+    border-top-color: #fff;
+    border-left-color: #fff;
+    top: -0.05rem;
+}
+.mobileAside .mobileasidepanel>ul ul{
+    margin-top: 0.3rem;
+    display: none;
+}
+.mobileAside .mobileasidepanel>ul ul.show{
+    display: block;
+}
+.mobileAside .mobileasidepanel>ul ul>li {
+    display:block;
+    color: #666666;
+    padding:0 0 0.3rem 0.4rem;
+}
+.mobileAside .mobileasidepanel>ul ul>li:last-child{
+    padding-bottom: 0;
+}
+.mobileAside ul li a {
+    display:block;
+    text-align: center;
+}
+.maskLayer {
+    cursor: pointer;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 101;
+    opacity: 0.8;
+    -webkit-opacity: 0.8;
+    -moz-opacity: 0.8;
+    filter:alpha(opacity=80);
+    background-color: rgba(0, 0, 0, .5);
+}
+@media (min-width: 769px) {
+    .mobileAside {
+        max-width: 640px;
+        left: 0%; 
+        height: 600px;
+    } 
+    .maskLayer {
+        width: 100%;
+        height: 768px;
+    } 
+}
+.cateLayBox {
+    display: flex;
+}
+.asideCateHeader {
+    background-color: #f6f6f6;
+    border-bottom: 1px solid #e2e2e2;
+    padding: 10px;
+}
+.asideCateLeft {
+    flex: 1;
+    margin-right: 10px;
+    background-color: #f1f1f1;
+}
+.asideCateLeft ul li {
+    width: 100%;
+    padding: 10px 8px;
+    font-size: 12px;
+    cursor: pointer;
+    color: #666666;
+    line-height: 14px;
+    display: flex;
+    display: flex;
+    align-items: center;
+    transition: 0.23s ease-out;
+    -webkit-transition: 0.23s ease-out;
+    -moz-transition: 0.23s ease-out;
+    overflow: hidden;
+    border-bottom: 1px solid #e2e2e2;
+}
+.asideCateLeft ul li.current {
+    color: #f00;
+    background-color: #fff;
+}
+.asideCateRight {
+    flex: 2;
+}
+.asideCateRight ul li {
+    width: 100%;
+    padding: 10px 8px;
+    font-size: 10px;
+    cursor: pointer;
+    color: #666666;
+    line-height: 14px;
+    display: flex;
+    display: flex;
+    align-items: center;
+    transition: 0.23s ease-out;
+    -webkit-transition: 0.23s ease-out;
+    -moz-transition: 0.23s ease-out;
+    overflow: hidden;
+    border-bottom: 1px solid #eeeeee;
+}
+/*侧边栏结束*/

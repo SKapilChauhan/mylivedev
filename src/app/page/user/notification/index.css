@@ -1,0 +1,26 @@
+.accountNotiListBox li{
+	margin:0.62rem 0;
+}
+.accountNotiListBox li .accountNotiTime{
+	text-align: center;
+	margin-bottom: 0.22rem;
+}
+.accountNotiListBox li .accountNotiItemConent{
+	background-color: #fff;
+	padding:0.4rem 0.28rem;
+}
+.accountNotiListBox li p{
+	margin-top: 0.3rem;
+}
+.accountNotiListBox li img{
+	max-width: 100%;
+	margin-top: 0.15rem;
+}
+.accountNotiListBox .unRead{
+	display: inline-block;
+    width: 0.1rem;
+    height: 0.1rem;
+    background-color: #f00;
+    float: right;
+    border-radius: 50%;
+}

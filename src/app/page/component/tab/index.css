@@ -1,0 +1,49 @@
+#outer {
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+#tab {
+    overflow: hidden;
+    background: #ccc;
+    display: flex;
+    justify-content: space-between;
+}
+
+#content {
+    border-top-width: 0;
+}
+
+#content>div {
+    display: none;
+    background-color: #fff;
+    padding: 0.2rem;
+    min-height: 60vh;
+}
+
+#content .active {
+    display: block
+}
+
+#tab li {
+    color: #000;
+    height: 0.72rem;
+    cursor: pointer;
+    line-height: 0.72rem;
+    list-style: none;
+    flex: 1;
+    text-align: center;
+    background-color: #fff;
+    border-bottom: 1px solid #eee; 
+}
+
+#tab li.current {
+    color: #000;
+	background-image: linear-gradient(45deg, 
+		#3b9aea 0%, 
+		#27c9f7 100%), 
+	linear-gradient(
+		#3b9aea, 
+		#3b9aea);
+	color: #fff;
+}

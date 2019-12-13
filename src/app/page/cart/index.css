@@ -1,0 +1,199 @@
+.paymentMethodBlock {
+	background-color: #a5b2be;
+	color: #ffffff;
+	font-size: 0.28rem;
+	font-weight: 500;
+	line-height: 15px;
+	padding: 15px 0px;
+	text-align: center;
+}
+.paymentList {
+	display: flex;
+	align-items:center;
+	box-shadow: 0 5px 5px rgba(0, 0, 0, 0.05);
+	background-color: #ffffff;
+	border-bottom: 1px solid #e2e2e2;
+}
+.paymentList li{
+	flex: 1;
+	text-align: center;
+	align-items: center;
+	padding: 10px 0px;
+}
+.amountList {
+	background-color: #ffffff;
+	padding: 0px 20px;
+}
+.amountList li{
+	display: flex;
+	padding: 10px 0px
+}
+.amountList li .text {
+	flex: 1;
+	font-size: 0.24rem;
+}
+.amountList li .value {
+	flex: 1;
+	text-align: right;
+	color: #ed676d
+}
+.totalPriceBox {
+	padding: 10px 20px;
+	box-shadow: -1px 5px 5px rgba(7, 0, 2, 0.1);
+	background-color: #fb9a27;
+	color: #fff;
+	display: flex;
+}
+.totalPriceBox .text {
+	flex: 1;
+	font-size: 0.26rem;
+}
+.totalPriceBox .value {
+	flex: 1;
+	text-align: right;
+	font-size: 0.24rem;
+}
+
+/*产品列表*/
+.supplierCartItem {
+	margin: 20px 8px;
+	border: 1px solid #cccccc;
+	padding: 5px;
+	background-color: #ffffff;
+}
+.cartProductItem {
+	display: flex;
+	padding: 10px 0.2rem;
+	background-color: #ffffff;
+	margin-bottom: 10px;
+	position: relative;
+}
+.cartProductItem .check {
+	flex: 0 0 20px;
+	display: flex;
+	align-items: center;
+	margin-right: 10px;
+}
+.cartProductItem .imginfo {
+	flex: 0 0 1.68rem;
+	overflow: hidden;
+	margin-right: 10px;
+}
+.cartProductItem img {
+	width: 100%;
+	margin: auto;
+	display: inline-block;
+	vertical-align: middle;
+}
+.cartProductItem .infobox {
+	flex: 1;
+	position: relative;
+	padding-bottom: 44px;
+}
+.cartProductItem .productname {
+	color: #333333;
+	line-height: 14px;
+	max-height: 14px;
+	font-size: 0.24rem;
+	overflow: hidden;
+	padding-right: 26px;
+}
+.cartProductItem .productprice {
+	display: flex;
+	margin-top: 5px;
+}
+.cartProductItem .productprice .text {
+	flex: 1;
+	font-size: 0.24rem;
+}
+.cartProductItem .productprice .value {
+	flex: 1;
+	text-align: right;
+	font-size: 0.24rem;
+	color: #ed676d;
+}
+.cartProductItem .attr {
+	margin-top: 5px;
+    display: flex;
+    color: #999999;
+    font-size: 12px;
+}
+.cartProductItem .attr>span {
+	margin-right: 5px;
+}
+.cartProductItem .attr .text {
+	flex: 1;
+	font-size: 0.24rem;
+}
+.cartProductItem .qtybox {
+	position: absolute;
+	width: 100%;
+	bottom: 0px;
+	align-items: center;
+	 justify-content: flex-end;
+}
+.cartProductItem .qtybox .text {
+	margin-right: 10px;
+	font-size: 0.24rem;
+}
+.cartProductItem .qtybox .input {
+	flex: unset;
+	margin-left: auto;
+}
+.cartProductItem .removebtn {
+	position: absolute;
+	right: 20px;
+	top: 7px;
+	cursor: pointer;
+}
+.mobileFooter .footNavInfo li.cartFooterCheck {
+	padding: 0px 0px 0px 0.2rem;
+    width: 60%;
+    background-color: rgb(255, 255, 255);
+    color: rgb(68, 68, 68);
+    line-height: 49px;
+    text-align: left;
+    line-height: 49px;
+}
+.cartFooterCheck .checkTotalBox {
+	display: flex;
+	align-items: center;
+}
+.cartFooterCheck .checkAllBox {
+	flex: 0 0 70px;
+}
+@media(max-width: 380px){
+	.cartFooterCheck .checkAllBox {
+		flex: 0 0 55px;
+	}
+}
+@media(max-width: 340px){
+	.cartFooterCheck .checkAllBox {
+		flex: 0 0 50px;
+	}
+}
+.cartFooterCheck .totalInfo {
+	flex: 1;
+	line-height: 14px;
+}
+.cartFooterCheck .totalInfo .ptext {
+	font-size: 12px;
+}
+.cartFooterCheck .totalInfo .cartItems {
+	font-size: 12px;
+}
+.cartFooterCheck .ws {
+	font-size: 0.2rem;
+}
+.cartFooterCheck .checkTotalBox .checkbox {
+	top: 12px;
+	margin-right: 1px;
+}
+@media(max-width: 360px){
+	.qtybox .numberReduce, .qtybox input {
+		width: 34px;
+		height: 34px;
+		line-height: 34px;
+		flex: 0 0 34px;
+	}
+}

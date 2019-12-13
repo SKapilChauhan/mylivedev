@@ -1,0 +1,150 @@
+.shopSettingSaveBtn {
+    position: absolute;
+    height: 0.6rem;
+    width: 1.2rem;
+    right: 0.24rem;
+    line-height: 0.6rem;
+    text-align: center;
+    background-color: #ed676d;
+    border-radius: 0.3rem;
+    top: 0.14rem;
+    color: #fff;
+    z-index: 2;
+}
+
+/*store name*/
+.icon-edit{
+	padding: 0.1rem;
+}
+.settingIpt{
+	width: 80%;
+	padding: 0.1rem 0;
+	border-bottom: 1px solid #fff;
+}
+.settingIpt.focus{
+	border-bottom: 1px solid #333;
+}
+.accountShopNameBox,.accountShopPriceBox,.accountCusPriceSetBox,.accountSenderDetailsBox{
+	background-color: #fff;
+	padding: 0.4rem 0.25rem;
+	margin-bottom: 0.2rem;
+}
+.accountShopName{
+	display: block;
+	border-bottom: 1px solid #dddddd;
+	padding-bottom: 0.1rem;
+	margin-bottom: 0.1rem;
+}
+.accountShopNameBox>div{
+	display: flex;
+	justify-content: space-between;
+}
+
+/*price*/
+.accountShopPriceBox .flexSPBox{
+	display: flex;
+	justify-content: space-between;
+	margin: 0.2rem 0;
+}
+.abp{
+	color: #fff;
+	font-size: 0.12rem;
+	text-align: center;
+	line-height: 0.42rem;
+	padding: 0 0.2rem;
+	display: inline-block;
+	background-image: linear-gradient(45deg, 
+		#24d144 0%, 
+		#42e75c 100%), 
+	linear-gradient(
+		#009944, 
+		#009944);
+	background-blend-mode: normal, 
+		normal;
+	border-radius: 20px;
+}
+.askPriceBox{
+	background-color: #f2f2f2;
+	padding: 0.2rem;
+}
+.askPriceBox img{
+	/* width: 1.6rem; */
+	height: 2.62rem;
+	margin-right:0.2rem;
+}
+.askPriceBox>div{
+	margin-top: 0.1rem;
+}
+.accountShopPriceBox .whatsappBox{
+	margin-bottom: -0.2rem;
+	margin-top: 0.3rem;
+}
+.whatsappBox .icon-whatsapp{
+	color: #24d144;
+}
+.whatsappBox .settingIpt{
+	width: 50%;
+}
+
+/*Customer Price Settings*/
+
+.accountCusPriceSetBox{}
+.accountCusPriceSetBox .radioBox{
+	display: flex;
+	justify-content: space-around;
+	font-weight: bold;
+	margin: 0.3rem 0.1rem;
+}
+
+.accountCusPriceSetBox .radioBox input[type="radio"] + label::before {
+    content: "\A0";
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 18px;
+    width: 0.36rem;
+    height: 0.36rem;
+    box-sizing: border-box;
+    margin-right: 0.1rem;
+    border-radius: 50%;
+    border: 2px solid #ed676d;
+}
+.accountCusPriceSetBox .radioBox input[type="radio"]:checked + label::before {
+    background-color: #ed676d;
+    background-clip: content-box;
+    padding: .2em;
+}
+
+ .accountCusPriceSetBox .radioBox input[type="radio"] {
+    position: absolute;
+    clip: rect(0, 0, 0, 0);
+}
+.accountCusPriceSetBox .iptPirceBOx{
+	text-align: center;
+    color: #ed676d;
+    font-weight: bold;
+    margin-bottom: 0.45rem;
+}
+.accountCusPriceSetBox .iptPirceBOx input{
+	width: 1.2rem;
+    text-align: center;
+    border-bottom: 2px solid #333333;
+    color: #ed676d;
+    font-weight: bold;
+}
+.accountCusPriceSetBox>p,.accountSenderDetailsBox>p{
+	color:#999999;
+}
+
+/*Sender Details*/
+.accountSenderDetailsBox>div{
+	margin: 0.2rem 0 0.2rem;
+}
+.accountSenderDetailsBox>div .icon-edit{
+	position: relative;
+    top: -0.4rem;
+    float: right;
+}
+.cpsLinkBox .cpsLink {
+	padding: 10px 0px;
+	color: #fe5430;
+}

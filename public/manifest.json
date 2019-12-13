@@ -1,0 +1,31 @@
+{
+    "background_color": "#29c360",
+    "description": "It's what's happening. From Shogee",
+    "display": "standalone",
+    "gcm_user_visible_only": true,
+    "icons": [
+        {
+        "src": "/apple-touch-icon.png",
+        "sizes": "192x192",
+        "type": "image/png"
+        },
+        {
+        "src": "/apple-touch-icon.png",
+        "sizes": "512x512",
+        "type": "image/png"
+        }
+    ],
+    "name": "Shogee",
+    "share_target": {
+        "action": "compose/tweet",
+        "params": {
+            "title": "title",
+            "text": "text",
+            "url": "url"
+        }
+    },
+    "short_name": "Shogee",
+    "start_url": "/",
+    "theme_color": "#fe5430",
+    "scope": "/"
+}

@@ -1,0 +1,156 @@
+.loginPageWrap .warpContent {
+	background-color: #ffffff;
+}
+.loginBackground {
+	position: relative;
+	max-width: 640px;
+	width: 100%;
+	height: 100%;
+}
+.loginBackground img {
+	width: 100%;
+}
+.loginButton {
+	position: fixed;
+	bottom: 90px;
+	width: 100%;
+	max-width: 640px;
+}
+@media(min-height: 660px){
+	.loginButton {
+		bottom: 100px;
+	}
+}
+.loginButton .button {
+	width: 80%;
+	margin: auto;
+	display: block;
+	padding: 0px 20px;
+	line-height: 49px;
+	text-align: center;
+	color: #fff;
+	box-shadow: 1px 5px 2px rgba(0, 0, 0, 0.29);
+	border-radius: 48px;
+	background-color: #24d144;
+	background-image: linear-gradient(to top, #ff585f 0%, #fe7589 100%);
+	padding: 0px 10px;
+	height: 49px;
+	cursor: pointer;
+}
+.loginBox {
+	padding: 10px;
+}
+.loginBox .formControl {
+	border: none;
+	border-bottom: 1px solid #cccccc;
+	margin-right: 0.2rem;
+	padding: 0 25px;
+}
+.loginTip {
+	padding: 60px 0px 20px 0px;
+	color: #555555;
+	font-weight: 400;
+	line-height: 24px;
+	width: 290px;
+	margin: auto;
+	font-size: 16px;
+}
+.loginTipH {
+	font-size: 20px;
+	font-weight: bold;
+}
+.loginBtn {
+	width:100%;
+	height: 48px;
+	background-image: linear-gradient(45deg,
+		#ed676d 0%,
+		#ff758c 100%),
+	linear-gradient(
+		#eb6877,
+		#eb6877);
+	background-blend-mode: normal,
+		normal;
+	box-shadow: 0px 4px 4px 0px
+		rgba(0, 0, 0, 0.14);
+	color: #fff;
+	text-align: center;
+	box-shadow: 0 8px 8px rgba(0, 0, 0, 0.14);
+	border-radius: 48px;
+	cursor: pointer;
+}
+
+.regcodeBox  {
+	display: flex;
+	border-bottom: 1px solid #cccccc;
+	padding-bottom: 10px;
+}
+.regcodeBox .formControl {
+	flex: 3;
+	border-bottom: none;
+	border: none;
+}
+.regcodeBox .formGroup-btn{flex:1}
+.phoneInput .codeBtn {
+	flex: 1;
+	border-radius: 8px;
+	border: solid 1px #cccccc;
+	background-color: #fff;
+	color: #ff5e66;
+	cursor: pointer;
+	margin-left: 5px;
+	border-radius: 48px;
+}
+.phoneInput .codeBtn:hover {
+	background-color: #fe5430;
+	color: #fff;
+}
+.regcodeBox .disabled {
+	background-color: #eeeeee !important;
+	cursor: not-allowed;
+	color: #444444 !important
+}
+.regcodeTip {
+	padding-top: 5px;
+	line-height: 20px;
+	color: #999999;
+}
+.regcodeTip .stext {
+	color: #f00
+}
+.referralCancelBtn {
+	margin-top: 10px;
+	width: 100%;
+	height: 48px;
+	background-image: linear-gradient(45deg,
+		#f3f3f3 0%,
+		#f9f9f9 100%),
+	linear-gradient(
+		#f3f3f3,
+		#f3f3f3);
+	background-blend-mode: normal,
+		normal;
+	border-radius: 4px;
+	border: solid 2px #cccccc;
+}
+.referralBox {
+	margin-top: 20px
+}
+.phoneInput{
+	display: flex;
+}
+.phoneInput .react-tel-input{flex: 3;margin-right: 1.05rem;}
+.phoneInput input, 
+.regcodeBox .formControl{ height:48px; background: #f5f6f7;border-radius: 40px;}
+
+.phoneInput input {
+	width: 100% !important;
+	box-sizing: content-box;
+    padding: 0 25px;
+}
+.signText {
+	color: #ed676d
+}
+.reftipinfo {
+	margin-top: 5px;
+	color: #999;
+}

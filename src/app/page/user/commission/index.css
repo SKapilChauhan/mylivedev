@@ -1,0 +1,84 @@
+/*销售奖金详情*/
+.accountCommissionBox .commissionWarn{
+	background-color: #fff;
+    padding: 0.3rem 0.25rem;
+    color: #333;
+    overflow: hidden;
+}
+.accountCommissionBox .commissionWarn>span{
+	display: block;
+	margin-left: 0.4rem;
+	color: #666666;
+}
+.accountCommissionBox .commissionWarn .commissionWarnIcon{
+	margin-left: 0;
+	width: 0.3rem;
+    height: 0.3rem;
+    text-align: center;
+    line-height: 0.3rem;
+    color: #fff;
+    float: left;
+    border-radius: 0.3rem;
+    background-color: #ed676d;
+}
+.commissionList{
+	background-color: #fff;
+	font-size: 0.24rem;
+}
+.commissionList li{
+	list-style: none;
+	
+	padding: 0.24rem 0.25rem;
+	border-bottom: 1px solid #eee;
+}
+.commissionList li>div{
+	display: flex;
+	justify-content: space-between;
+	padding: 0.1rem 0;
+}
+.dateBetween{
+	font-weight: bold;
+}
+.commissionList li .saleDetail{
+	text-decoration: underline;
+	color: #3598db;
+}
+.cld8c600{
+	color: #d8c600;
+}
+
+
+/*detail*/
+.accountCommissionBox .cled676d{
+	color: #ed676d;
+}
+.accountCommissionBox .timeBetween{
+	padding: 0.27rem;
+    color: #333333;
+    font-size: 0.24rem;
+    font-weight: bold;
+}
+.saleListBox{
+
+}
+.saleListBox>li{
+	display: flex;
+	justify-content: space-between;
+	border-bottom: 1px solid #eee;
+	padding: 0.3rem 0;
+	font-size: 0.3rem;
+}
+.saleListBox>li>span{
+	flex: 1;
+	text-align: center;
+}
+.saleListBox>li>span:first-child{
+	display: inline-block;
+	width: 2rem;
+	text-align: left;
+}
+.saleListBox .saleListTitle{
+	border-bottom: none;
+	padding: 0;
+	font-size: 0.24rem;
+}

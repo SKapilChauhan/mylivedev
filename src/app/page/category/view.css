@@ -1,0 +1,51 @@
+.siteCateFixed {
+    position: fixed;
+    z-index: 10;
+}
+.siteCateNav {
+    width: 100%;
+    overflow-x: auto;
+    overflow-y: hidden;
+    white-space: nowrap;
+    background-color: #ffffff;
+    height: 44px;
+    padding: 0px 10px;
+    -webkit-overflow-scrolling: touch;
+    border-bottom: 1px solid #eeeeee;
+}
+
+.siteCateFixedBox:after {
+    clear: both;
+    content: ' ';
+    display: block;
+    height: 44px;
+}
+
+@media (min-width: 769px) {
+    .siteCateFixed {
+        max-width:640px;
+        left: 50%;
+        transform: translateX(-50%);
+        -webkit-transform: translateX(-50%);
+    }
+}
+.siteCateNav li {
+    display: inline-block;
+    text-align: center;
+    margin-right: -5px;
+    padding-right: 15px;
+    padding-left: 15px;
+    cursor: pointer;
+    vertical-align: middle;
+}
+.siteCateNav li.current span {
+    border-bottom: 2px solid #fe5430;
+}
+.siteCateNav li span {
+    height: 40px;
+    line-height: 40px;
+    display: block;
+    transition: 0.23s ease-out;
+    -webkit-transition: 0.23s ease-out;
+    -moz-transition: 0.23s ease-out;
+}

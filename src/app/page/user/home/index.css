@@ -1,0 +1,501 @@
+.accountHeader{
+	display: flex;
+	flex-direction: column;
+	background-image: linear-gradient(66deg, 
+		#fd777b 0%, 
+		#fe6977 50%, 
+		#ff5a72 100%), 
+	linear-gradient(
+		#ff797e, 
+		#ff797e);
+	color:#fff;
+}
+
+.accountBar{
+	height: 0.96rem;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.accountTitle{
+	margin-left: 0.24rem;
+}
+.accountHeader .icon-cart{
+	color: #fff;
+}
+
+.accountInfo{
+	display: flex;
+	padding: 0.24rem 0.24rem 0.70rem;
+	align-items: center;
+	justify-content: space-between;
+}
+.uploadPhotoForm{
+	display: none;
+}
+.accountInfoLeft{
+	display: flex;
+	align-items: center;
+	flex: 1;
+}
+.accountInfoRight{
+	float: right;
+}
+.accountInfoRight label{
+	font-size: 0.13rem;
+	margin-right: 5px;
+}
+.accountInfoLeft>div{
+	display: flex;
+	flex-direction: column;
+	line-height: 1.3;
+	flex: 1;
+}
+.accountInfoLeft>div .lineTwo{
+	flex: 1;
+}
+.accountInfoLeft>div .lineTwo .icon-member{
+	color: #f6d80e;
+}
+.accountInfo .iconfont{
+	margin-right: 0.05rem;
+    margin-left: 0.05rem;
+    display: inline-block;
+    vertical-align: middle;
+}
+.accountInfoLeft img{
+	width: 1.2rem;
+	height: 1.2rem;
+	margin-right: 0.16rem;
+	    border-radius: 50%;
+    border: 1px solid #fff;
+    padding: 0;
+}
+.accountInfo .icon-copy {
+	color: #fff
+}
+
+/*会员进度*/
+.accountInfoDetailBox{
+	margin: -0.5rem 0.24rem 0.24rem;
+	padding: 0.72rem 0.24rem 0;
+	background-color: #ffffff;
+	border-radius: 0.36rem;
+	font-size: 0.24rem;
+}
+.accountVipBox{
+	position: relative;
+	text-align: center;
+}
+.accountVipBox .totalProgress{
+	width: 100%;
+	height: 0.02rem;
+	background-color: #cccccc;
+	border-radius: 1px;
+}
+.accountVipBox .currentProgress{
+	width: 50%;
+	height: 0.06rem;
+	background-color: #3b9aea;
+	border-radius: 0.03rem;
+	top: -0.04rem;
+	position: relative;
+}
+.currentPosition{
+	width: 0.16rem;
+	height: 0.16rem;
+	background-color: #3b9aea;
+	display: block;
+	position: absolute;
+	left: 50%;
+	top: -0.08rem;
+	border-radius: 0.08rem;
+}
+.currentNum,.totalNum{
+	display: inline-block;
+	position: absolute;
+	top: -0.5rem;
+	transform: translateX(-10%);
+	left: 50%;
+	background-color: #fff;
+	font-size: 0.3rem;
+}
+.totalNum{
+	right: 0;
+    left: auto;
+    transform: translateX(0);
+}
+.accountWalletBox{
+	display: flex;
+	justify-content: space-between;
+	margin-top: 0.5rem;
+	padding-bottom: 0.5rem;
+	align-items: center;
+}
+.accountWalletBox font{
+	font-size: 0.3rem;
+	margin-left: 0.1rem;
+}
+.accountWalletBox .btn{
+	border-radius: 0.36rem;
+	padding: 0 0.15rem;
+	font-size: 0.24rem;
+}
+.accountWalletBox .accountDetailLink{
+	border: solid 0.02rem #cccccc;
+    background-color: #fff;
+    color: #3b9aea;
+    text-align: center;
+    padding: 0.20rem 0.37rem;
+    border-radius: 0.37rem;
+}
+
+/*banner*/
+.accountBanner{
+	margin:0 0.24rem 0.24rem;
+	display: inline-block;
+}
+.accountBanner img{
+	max-width: 100%;
+}
+
+.accountSalePer{
+	margin: 0 0.24rem 0.24rem;
+	padding: 0.30rem 0.24rem 0.53rem;
+	background-color: #ffffff;
+	border-radius: 0.36rem;
+	font-size: 0.24rem;
+
+}
+.accountSalePer .accountSalePerTitle{
+	display: flex;
+	justify-content: space-between;
+	font-weight: bold;
+	font-size: 0.24rem;
+	color: #333333;
+}
+.accountSalePer .accountSalePerTitle>a{
+	font-size: 0.24rem;
+	color: #666666;
+}
+.accountSalePerDetails{
+	display: flex;
+	margin-top: 0.56rem;
+	justify-content: space-between;
+    text-align: center;
+}
+.accountSalePerDetails>div{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	font-size: 0.24rem;
+	color: #666666;
+}
+.accountSalePerDetails>div .c-ff5a61{
+	font-size: 0.3rem;
+}
+/*account list*/
+.accountItems{
+	margin: 0 0.24rem 0.24rem;
+	padding-bottom: 0.65rem;
+	background-color: #ffffff;
+	border-radius: 0.36rem;
+	font-size: 0.24rem;
+	color: #333;
+}
+.accountItems li:first-child{
+	background-image: linear-gradient(49deg, 
+ #ff8542 0%, 
+ #ff9b21 100%), 
+ linear-gradient(
+ #ff9e27, 
+ #ff9e27);
+    background-blend-mode: normal, 
+ normal;
+    border-top-left-radius: 0.36rem;
+    border-top-right-radius: 0.36rem;
+    height: 1.12rem;
+    color: #fff;
+}
+.accountItems li:first-child>a{
+	color: #fff;
+}
+.accountItems li{
+	list-style: none;
+	padding: 0.40rem 0.24rem 0.13rem;
+}
+.accountItems li>a{
+	display: block;
+}
+.accountItems li b,.accountH5Items li b{
+	position: absolute;
+    font-size: 0.1rem;
+    font-weight: normal;
+    color: #fff;
+    background: #f00;
+    width: 0.3rem;
+    height: 0.3rem;
+    text-align: center;
+    border-radius: 0.3rem;
+    line-height: 0.3rem;
+    display: inline-block;
+    top: -0.2rem;
+    left: 0.2rem;
+}
+.accountItems li .accountItemCon{
+	position: relative;
+}
+.accountItems li .accountItemCon .iconfont{
+	margin-right: 0.25rem;
+}
+.accountItemCopy{
+	border: solid 0.02rem #fff;
+    background-color: #ff9e27;
+    color: #fff;
+    float: right;
+    height: 0.6rem;
+    line-height: 0.6rem;
+    margin-top: -0.15rem;
+    margin-left: 0.2rem;
+    border-radius: 0.3rem;
+}
+.accountItemGt{
+	float: right;
+	margin-left: 0.6rem;
+}
+
+
+/*h5 style------------*/
+.h5AccountHeader .accountBar{
+	justify-content: center;
+	font-size: 0.3rem;
+}
+.h5AccountHeader .accountInfo{
+	flex-direction: column;
+}
+.h5AccountHeader .accountInfo>img{
+	width: 1.6rem;
+	height: 1.6rem;
+	/* background-color: #ffffff; */
+	border: solid 1px #ffffff;
+	border-radius: 50%;
+}
+.h5AccountHeader .accountInfo>span{
+	margin: 0.2rem 0 0.4rem;
+    display: inline-block;
+    width: 1.6rem;
+    text-align: center;
+}
+.h5AccountHeader .accountInfo .iconfont {
+    position: absolute;
+}
+.accountMyOrderBox.accountH5MyOrderBox{
+	padding-top: 0.4rem;
+}
+.accountH5MyOrderBox .accountMyOrderTitle{
+	font-size: 0.26rem;
+	
+}
+.accountMyOrderBox{
+	margin: -0.5rem 0.24rem 0.24rem;
+    padding: 0.72rem 0.24rem 0;
+    background-color: #ffffff;
+    border-radius: 0.36rem;
+    font-size: 0.24rem;
+    padding-bottom: 0.3rem;
+}
+.accountMyOrderTitle{
+	display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content: space-between;
+    justify-content: space-between;
+    font-weight: bold;
+    font-size: 0.24rem;
+    color: #333333;
+    padding-bottom: 0.3rem;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 0.3rem;
+}
+.accountMyOrderList{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.accountMyOrderList li>a{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 0.15rem 0;
+}
+.accountMyOrderList li span{
+	position: relative;
+}
+.accountMyOrderList li b{
+	position: absolute;
+    font-size: 0.1rem;
+    font-weight: normal;
+    color: #fff;
+    background: #f00;
+    width: 0.3rem;
+    height: 0.3rem;
+    text-align: center;
+    border-radius: 50%;
+    line-height: 0.3rem;
+    display: inline-block;
+    top: -0.2rem;
+    left: 0.2rem;
+}
+.accountMyOrderList li .iconfont {
+	font-size: 18px;
+}
+.accountH5Items{
+	margin: 0 0.24rem 0.24rem;
+	padding-bottom: 0.25rem;
+	background-color: #ffffff;
+	border-radius: 0.36rem;
+	font-size: 0.24rem;
+	color: #333;
+}
+.accountH5Items li{
+	list-style: none;
+	padding: 0.40rem 0.24rem 0.13rem;
+}
+.accountH5Items li .accountItemCon{
+	position: relative;
+}
+.accountH5Items li .accountItemCon .iconfont{
+	margin-right: 0.25rem;
+}
+/*h5 style------------*/
+
+.coverLayer {
+	margin: 0px;
+    padding: 0px;
+    border: none;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    background-color: #cccccc;
+    background-color: rgba(0,0,0,0.5);
+    z-index: 998;
+    opacity: 1;
+    -webkit-opacity: 1;
+    -moz-opacity: 1;
+    filter: alpha(opacity=80);
+}
+.commLayerBox {
+	display: none;
+}
+.commLayerBox.show {
+	display: block;
+}
+.commLayerBox.hide {
+	display: block;
+}
+.commLayer {
+	position: fixed;
+	left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    box-shadow: none;
+    border: none;
+    width: 84%;
+    max-width: 400px;
+    background-color: #ffffff;
+    z-index: 1000;
+    border: solid 0.06rem #ff5f74;
+}
+@media (min-width: 769px){
+	.commLayerBox {
+	    max-width: 640px;
+	    margin: 0px auto;
+	    left: 50%;
+	    margin-left: -320px;
+	}
+}
+.headerImg {
+    position: absolute;
+    top: -0.85rem;
+    width: 116%;
+    left: -8%;
+}
+.tableBox {
+	padding: 0.85rem 10px 20px 10px;
+}
+.tableHeader {
+	display: flex;
+	padding: 10px 5px 10px 5px;
+	border-bottom: 1px solid #e2e2e2;
+	font-weight: bold;
+}
+.tableBody {
+	padding: 10px 10px;
+	max-height: 320px;
+	overflow: auto;
+}
+.tableBox .tTd {
+	flex: 1;
+	color: #333333;
+	font-weight: 600;
+}
+.tableBox .perTd {
+	flex:  0 0 50px;
+	text-align: center;
+}
+.tableBox .tTr {
+	padding: 15px 0px;
+	display: flex;
+}
+.tableBody .perTd {
+	color: #ff003d;
+}
+@media(max-width: 340px){
+	.commLayer {
+		max-width: 95%
+	}
+}
+.sHelpLink {
+	display: inline-block;
+	vertical-align: middle;
+	padding: 0px 6px;
+}
+.sHelpLink span {
+	display: block;
+	height: 20px;
+	line-height: 20px;
+	width: 20px;
+	color: #3b9aea;
+	font-size: 0.32rem;
+	border-radius: 50%;
+	-webkit-border-radius: 50%;
+	border: 1px solid #dddddd
+}
+.commLayer .tips {
+	padding: 0px 5px 20px 5px;
+	max-width: 95%;
+	margin: auto;
+	font-size: 0.28rem;
+    color: #666666;
+    line-height: 18px;
+}
+.coverLayer .closeBtn {
+	display: block;
+	position: absolute;
+	top: -0.65rem;
+	right: 0px;
+	border-radius: 50%;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	border: 1px solid #dddddd;
+	height: 20px;
+	width: 20px;
+    line-height: 20px;
+    text-align: center;
+    background-color: #ffffff;
+    color: #00f;
+    z-index: 1000;
+}

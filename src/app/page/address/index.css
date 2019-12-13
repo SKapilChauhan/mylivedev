@@ -1,0 +1,73 @@
+.addressContent {
+	
+}
+.addressListBox {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	background-color: #fff;
+}
+.addressItem {
+	padding: 10px;
+	border-bottom: 1px solid #e2e2e2;
+	display: flex;
+	position: relative;
+}
+.addressItem .checkBlock {
+	margin-right: 5px;
+}
+.addressItem .infobox {
+	flex: 1;
+	line-height: 20px;
+	font-size: 0.22rem;
+	padding-right: 20px;
+}
+.addressItem .username {
+	color: #333333;
+	font-size: 0.24rem;
+	font-weight: 700;
+	margin-right: 10px;
+}
+.addressItem .address {
+	color: #666666;
+	font-size: 0.2rem;
+	line-height: 20px;
+}
+.addressItem .editBtn {
+	position: absolute;
+	right: 10px;
+	top: 20px;
+	color: #ed676d;
+	font-size: 0.24rem;
+}
+.addressFormContent {
+	padding: 10px 5px;
+}
+.senderTip {
+	padding: 20px 0px;
+	text-align: center;
+}
+.senderTip .iconfont {
+	font-size: 20px;
+	margin-right: 5px;
+}
+.sender-send-info {
+	font-size: 0.24rem;
+	font-weight: normal;
+	font-stretch: normal;
+	line-height: 30px;
+	letter-spacing: 0px;
+	color: #333333;
+}
+.setDefaultBox {
+	padding: 10px;
+	background-color: #ffffff
+}
+.setDefaultBox {
+	padding: 10px;
+	display: flex;
+	align-items: center;
+}
+.setDefaultBox .switchBox {
+	flex: 1;
+	text-align: right;
+}

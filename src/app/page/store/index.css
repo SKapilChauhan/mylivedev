@@ -1,0 +1,179 @@
+.storeWrap .warpContent{
+    margin-top: 105px;
+    padding-bottom: 0px;
+}
+.storeMobileHeader .storeManageBtn {
+    padding: 0.15rem 0.2rem;
+    text-align: center;
+    background-color: #ed676d;
+    border-radius: 0.3rem;
+    color: #fff;
+    min-width: 1.2rem;
+}
+.manageGroup .groupListItem{
+    padding-left: 0.75rem;
+}
+.mui-checkbox{
+    display: none;
+}
+.manageGroup .mui-checkbox{
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 0.15rem;
+    transform: translateY(-50%);
+}
+.storeMobileHeader .mobileHeaderBox{
+    height: auto;
+    flex-direction: column;
+}
+.storeMobileHeader .mobileHeaderBox>div{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 0.25rem 0 0.1rem;
+    align-items: center;
+}
+.storeMobileHeader .mobileHeaderBox>div:first-child{
+    padding: 0 ;
+}
+.storeMobileHeader .mobileHeaderBox .mobileHeaderTitle{
+    text-align: center;
+}
+.storeMobileHeader .mobileHeaderBox .storeTooBarBox{
+    border-bottom: 2px solid #f5f5f5;
+    border-top: 2px solid #f5f5f5;
+}
+.storeMobileHeader .mobileHeaderBox .storeNameBox{
+    border-bottom: 2px solid #f5f5f5;
+    padding: 0.2rem 0.25rem;
+    font-size: 0.24rem;
+    color: #333333;
+    font-family: Roboto-Medium;
+}
+
+.mobileFooter .mui-checkbox{
+    display: inline-block;
+}
+.mobileFooter{
+    line-height: 49px;
+}
+.mobileFooter .selectAllBox{
+    float: left;
+    margin-left: 0.15rem;
+}
+.mobileFooter .shopOptBtnBox{
+    float: right;
+    margin-right: 0.15rem;
+}
+.mobileFooter .shopOptBtn{
+    border: 1px solid #ccc;
+    border-radius: 0.3rem;
+    width: 1.5rem;
+    display: inline-block;
+    height: 0.6rem;
+    line-height: 0.6rem;
+    margin-left: 0.2rem;
+}
+.mobileFooter .setPriceBtn{
+    color: #ff585f;
+    border-color: #ff585f;
+}
+
+.storePriceSetBox{
+
+}
+/*Customer Price Settings*/
+
+.storePriceSetBox{
+    background-color: #fff;
+    padding: 0.4rem 0.25rem 0.25rem;
+    position: fixed;
+    bottom: 0;
+    z-index: 101;
+    font-size: 0.24rem;
+    width: 100%;
+    max-width: 640px;
+}
+.storePriceSetBox .setPriceTitle{
+    text-align: center;
+    font-weight: bold;
+    display: block;
+    border-bottom: 1px solid #dddddd;
+    padding-bottom: 0.3rem;
+    margin-bottom: 0.1rem;
+}
+.storePriceSetBox .radioBox{
+    display: flex;
+    justify-content: space-around;
+    font-weight: bold;
+    margin: 0.3rem 0.1rem;
+    line-height: 0.4rem
+}
+
+.storePriceSetBox .radioBox input[type="radio"] + label::before {
+    content: "\A0";
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 18px;
+    width: 0.36rem;
+    height: 0.36rem;
+    box-sizing: border-box;
+    margin-right: 0.1rem;
+    border-radius: 50%;
+    border: 2px solid #ed676d;
+}
+.storePriceSetBox .radioBox input[type="radio"]:checked + label::before {
+    background-color: #ed676d;
+    background-clip: content-box;
+    padding: .2em;
+}
+
+ .storePriceSetBox .radioBox input[type="radio"] {
+    position: absolute;
+    clip: rect(0, 0, 0, 0);
+}
+.storePriceSetBox .iptPirceBOx{
+    text-align: center;
+    color: #ed676d;
+    font-weight: bold;
+    margin-bottom: 0.45rem;
+}
+.storePriceSetBox .iptPirceBOx input{
+    width: 1.2rem;
+    text-align: center;
+    border-bottom: 2px solid #333333;
+    color: #ed676d;
+    font-weight: bold;
+}
+.storePriceSetBox>p{
+    color:#999999;
+}
+.storePriceSetBox .storeBtnBox{
+    display: flex;
+}
+.storePriceSetBox .storeBtnBox>span{
+    background-color: #eeeeee;
+    flex: 1;
+    text-align: center;
+    padding: 0.35rem 0;
+    margin-top: 1.65rem;
+    background-color: #ccc;
+    color: #666666;
+}
+.storePriceSetBox .storeBtnBox .comfirmBtn{
+    margin-left: 0.1rem;
+    background-color: #ed676d;
+    color: #fff;
+}
+.layer{
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: #000;
+    opacity: 0.6;
+    z-index: 101;
+}

@@ -1,0 +1,368 @@
+.mobileHeaderTitle.orderHeaderTitle {
+	padding: 0px 10px 0px 10px;
+	flex: unset;
+}
+.icon-search {
+	color: #222;
+	font-size: 20px
+}
+.orderSearchHeader .headerSearch {
+	padding-right: 44px;
+}
+.headerSearch .orderSearchInput {
+	padding: 0px 10px 0px 10px;
+}
+.headerRight {
+	position: absolute;
+    height: 48px;
+    width: 48px;
+    right: 10px;
+    line-height: 48px;
+    text-align: right;
+}
+.headerShare {
+	flex: 0 0 44px;
+    height: 48px;
+    width: 48px;
+    right: 0px;
+    line-height: 48px;
+    text-align: center;
+}
+.headerShare .iconfont {
+	color: #666666;
+	font-size: 22px;
+}
+.orderTypList {
+	display: flex;
+	align-items: center;
+}
+.orderTypList li {
+	flex: 1;
+	border: 1px solid #e2e2e2;
+	text-align: center;
+	background-color: #fff;
+}
+.orderTypList li.current {
+	background-color: #38a1ec;
+	color: #fff;
+}
+.orderTypList li a{
+	display: block;
+	padding: 10px;
+}
+.orderTypList li.current a {
+	color: #fff;
+}
+.menuBoxList {
+	margin-top: 10px;
+    width: 100%;
+    overflow-x: auto;
+    overflow-y: hidden;
+    white-space: nowrap;
+    background-color: #ffffff;
+    height: 44px;
+    padding: 0px 10px;
+    -webkit-overflow-scrolling: touch;
+}
+.menuBoxItem {
+    display: inline-block;
+    text-align: center;
+    margin-right: -5px;
+    cursor: pointer;
+}
+.menuBoxItem.current a {
+    color: #fe5430;
+}
+.menuBoxItem a {
+    padding-right: 15px;
+    padding-left: 15px;
+    height: 40px;
+    line-height: 40px;
+    display: block;
+    transition: 0.23s ease-out;
+    -webkit-transition: 0.23s ease-out;
+    -moz-transition: 0.23s ease-out;
+}
+.menuBoxItem:first-child a {
+	padding-left: 5px;
+}
+.orderList {
+	margin-top: 10px;
+}
+.orderListItem {
+	background-color: #ffffff;
+	padding: 10px;
+	margin-bottom: 20px;
+}
+.orderListItem .header {
+	padding: 10px 0px;
+	display: flex;
+	border-bottom: 1px solid #e2e2e2;
+}
+.orderListItem .header .orderNo {
+	flex: 1;
+	font-size: 0.22rem;
+	color: #666666;
+	font-weight: 400;
+}
+.orderListItem .header .orderStatus {
+	text-align: right;
+	color: #ff5a61;
+}
+.orderProductItem {
+	display: flex;
+	width: 100%;
+	padding: 10px 0px;
+}
+.orderProductItemBox {
+	display: flex;
+}
+.orderProductItem .imginfo {
+	flex: 0 0 100px;
+	overflow: hidden;
+	margin-right: 10px;
+}
+.orderProductItem img {
+	width: 100%;
+	margin: auto;
+	display: inline-block;
+	vertical-align: middle;
+}
+.orderProductItem .infobox {
+	flex: 1;
+	position: relative;
+	padding-bottom: 44px;
+}
+.orderProductItem .productname {
+	color: #333333;
+	line-height: 14px;
+	max-height: 14px;
+	font-size: 0.24rem;
+	overflow: hidden;
+	padding-right: 26px;
+}
+.orderProductItem .productprice {
+	display: flex;
+	margin-top: 10px;
+}
+.orderProductItem .productprice .text {
+	flex: 1;
+	font-size: 0.24rem;
+	color: #999999;
+}
+.orderProductItem .productprice .price {
+	flex: 1;
+	text-align: right;
+	font-size: 0.24rem;
+	color: #333333;
+}
+.orderProductItem .attr {
+	margin-top: 10px;
+	font-size: 0.20rem;
+	color: #999999;;
+}
+.orderListItem .totalInfo {
+	text-align: right;
+	color: #999999;
+	padding-bottom: 10px;
+}
+.orderListItem .totalInfo .value {
+	text-align: right;
+	color: #333333
+}
+.operateBox {
+	text-align: right;
+	padding-top: 15px;
+	padding-bottom: 5px;
+	border-top: 1px solid #e2e2e2;
+}
+.operatebtn {
+    background-color: #ffffff;
+    border: 1px solid #e2e2e2;
+    padding: 5px;
+    margin-right: 10px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    text-align: right;
+}
+.operatebtn:hover {
+    border: 1px solid #fe5430;
+}
+.orderDetailBox {
+	font-size: 0.24rem;
+}
+.orderDetailHeader {
+	margin-top: 10px;
+	background-color: #fff;
+	padding: 10px 8px;
+	display: flex;
+	position: relative;
+	border-bottom: 1px solid #e2e2e2;
+}
+.orderDetailHeader .orderText {
+	flex: 1;
+	color: #333333;
+}
+.orderDetailHeader .orderStatus {
+	color: #f00;
+	font-size: 0.24rem;
+}
+.orderDetailHeader .orderNo {
+	flex: 1;
+	color: #333333;
+	text-align: center;
+	position: absolute;
+	width: 100%;
+	font-size: 0.24rem;
+}
+.amountListBox {
+	background-color: #ffffff;
+	padding: 0px 20px;
+}
+.amountListBox li{
+	display: flex;
+	padding: 10px 0px
+}
+.amountListBox li .text {
+	flex: 1;
+	font-size: 0.24rem;
+}
+.amountListBox li .value {
+	flex: 1;
+	text-align: right;
+	color: #ed676d
+}
+.orderTotalBox {
+	padding: 10px 20px;
+	box-shadow: -1px 5px 5px rgba(7, 0, 2, 0.1);
+	background-color: #fb9a27;
+	color: #fff;
+}
+.customersPayBox {
+	display: flex;
+	font-size: 13px;
+	margin-bottom: 10px;
+}
+.orderTotalPriceBox {
+	display: flex;
+}
+.orderTotalBox .text {
+	flex: 1;
+	font-size: 0.26rem;
+}
+.orderTotalBox .value {
+	flex: 1;
+	text-align: right;
+	font-size: 0.24rem;
+}
+.orderProductList {
+	background-color: #ffffff;
+	margin: 20px 0px;
+}
+.orderBlockBox {
+	padding: 10px;
+	background-color: #ffffff;
+	line-height: 25px;
+}
+.orderBlockItem {
+	padding: 10px;
+	background-color: #ffffff;
+	line-height: 25px;
+}
+.orderBlockBoxItem {
+	display: flex;
+}
+.orderBlockBoxItem .value{
+	flex: 1;
+	text-align: right;
+}
+.orderViewPanel {
+	margin-top: 10px;
+    background-color: #ffffff;
+    margin-bottom: 10px;
+}
+.orderViewPanel .headering {
+	padding: 10px;
+    border-bottom: 1px solid #e2e2e2;
+}
+.orderViewPanel .content {
+	padding: 10px;
+	line-height: 25px;
+}
+.addressItem {
+	display: flex;
+	align-items: center;
+}
+.addressItem .ico{
+	flex: 0 0 50px;
+}
+.addressItem .icon-address {
+	font-size: 30px;
+	color: #fb9a27
+}
+.addressItem .icon-phone {
+	font-size: 30px;
+	color: #fb9a27
+}
+.operateBtnBox {
+	margin-top: 5px;
+	text-align: right;
+}
+.operatebtn {
+	padding: 10px 20px;
+	display: inline-block;
+	vertical-align: middle;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+}
+.paybtn {
+	padding: 10px 60px;
+	color: #fff;
+	background-color: #f00;
+}
+.orderTrackMenu {
+	margin-bottom: 10px;
+}
+.trackNumberBox .ulink {
+	margin-left: 10px;
+	text-decoration: underline;
+	color: #3b9aea
+}
+.orderTrackingList  {
+	padding: 10px 10px 10px 40px;
+}
+.trackNodeItem {
+	padding-bottom: 20px;
+	display: flex;
+    padding: 0px 0 20px 30px;
+    line-height: 22px;
+    border-left: 2px solid #999999;
+    color: #333333;
+    position: relative;
+    font-size: 0.22rem;
+}
+.trackNodeItem:first-child{
+	border-left: 4px dotted #ff5a61;
+	color: #ff5a61;
+}
+.trackNodeItem .nodeicon {
+	position: absolute;
+	left: -7px;
+	top: 0px;
+	display: block;
+	width: 12px;
+	height: 12px;
+	background-color: #999999;
+	border-radius: 50%;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+}
+.trackNodeItem:first-child .nodeicon {
+	left: -10px;
+	top: 0px;
+	width: 16px;
+	height: 16px;
+	background-color: #ff5a61;
+}

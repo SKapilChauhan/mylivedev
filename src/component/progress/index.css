@@ -1,0 +1,54 @@
+.progressDrag {
+    width: 100%;
+    height: 8px;
+    line-height: 8px;
+    position: relative;
+}
+.progressDrag .bar {
+    width: 100%;
+    height: 100%;
+    background: #ccc;
+    border-radius: 3px;
+    position: relative;
+    background-image: linear-gradient(to right, #a2ff00 0%, #a2ff00 5%, #edbe00 28%, #edbe00 64%, #f45656 95%, #f45656 100%);
+}
+.progressDrag .pro-value {
+    position: absolute;
+    right: 30px;
+    top: 0;
+    max-width: 100%;
+    overflow: hidden;
+}
+.progressDrag .hang {
+    width: 0;
+    height: 100%;
+    border-radius: 8px 0 0 8px;
+    max-width: 100%;
+    overflow: hidden;
+}
+.progressDrag span {
+    width: 25px;
+    height: 25px;
+    background: #fff;
+    position: absolute;
+    left: 0;
+    top: -8.5px;
+    border-radius: 50%;
+    cursor: pointer;
+    max-width: 100%;
+    overflow: hidden;
+    padding: 0.1rem;
+    border: 3px solid #ddd;
+}
+.progressDrag span:after{
+    content: '';
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    display: inline-block;
+    background-color: #ddd;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 50%;
+}

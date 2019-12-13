@@ -1,0 +1,29 @@
+.mlistGroup {
+	margin: 10px 0px;
+    padding: 10px;
+    background-color: #ffffff;
+    border-radius: 0.36rem;
+    font-size: 0.24rem;
+    color: #333;
+}
+
+.mlistGroupItem {
+	position: relative;
+}
+
+.mlistGroupItem a {
+	display: block; 
+	padding: 10px 0px;
+}
+.mlistGroupItem .iconfont {
+    margin-right: 10px;
+}
+
+.mlistGroupItem:hover a {
+ 	color: #fe5430; 
+}
+
+.mlistGroupItem .to {
+ 	position: absolute;
+ 	right: 20px; 
+}

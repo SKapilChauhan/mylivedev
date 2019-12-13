@@ -1,0 +1,51 @@
+.bankSetForm{
+	background-color: #fff;    
+	padding-bottom: 0.4rem;
+}
+.uploadPhotoForm{
+	display: none;
+}
+.bankSetForm .uploadPhotoBox>img{
+	max-width: 100%;
+    margin: 0 auto;
+    display: block;
+}
+.bankSetForm .lineBox{
+	margin: 0.4rem 0.24rem;
+	display: flex;
+	flex-direction: column;
+	color: #999;
+}
+.bankSetForm .lineBox label{
+	margin-bottom: 0.2rem;
+}
+.bankSetForm .lineBox>input[type="text"]{
+	border-bottom: 1px solid #999;
+	color: #999;
+}
+.bankSetForm .lineBox.focus{
+	color: #333;
+} 
+.bankSetForm .lineBox.focus>input[type="text"]{
+	border-bottom-color: #333;
+	color: #333;
+}
+.bankSetForm .submitBtn{
+	display: block;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	height: 0.96rem;
+	color: #fff;
+	font-size: 0.3rem;
+	text-align: center;
+	background-image: linear-gradient(45deg, 
+		#ed676d 0%, 
+		#ff758c 100%), 
+	linear-gradient(
+		#ff5a61, 
+		#ff5a61);
+	background-blend-mode: normal, 
+		normal;
+	z-index: 101;
+}

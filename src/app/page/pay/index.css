@@ -1,0 +1,45 @@
+/*支付成功页面*/
+.checkoutPage .mobileHeaderTitle {
+    text-align: center;
+}
+.checkoutBox {
+    padding: 40px 0px;
+    text-align: center;
+    background-color: #ffffff;
+     line-height: 30px;
+}
+.checkoutBox p {
+    line-height: 25px;
+}
+.checkoutBox .icon-box {
+    margin-bottom: 10px;
+}
+.checkoutBox .orderNo {
+    margin-top: 20px;
+}
+.checkoutBox .ordertext {
+    font-weight: 500;
+    font-size: 14px;
+    display: inline-block;
+}
+.checkoutBox .value {
+    font-size: 14px;
+    font-weight: bold;
+    color: #000000;
+    display: inline-block;
+}
+.checkoutBox .icon-success {
+	font-size: 60px;
+	color: #1296db;
+}
+.checkoutBox .icon-tips {
+    font-size: 60px;
+    color: #f00;
+}
+.totalInfo .value {
+    color: #f00
+}
+.controlGroup {
+    padding: 20px 0px;
+}
+/*支付成功页面*/

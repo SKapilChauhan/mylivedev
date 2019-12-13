@@ -1,0 +1,52 @@
+.promtionItem {
+	width: 49%;
+	display: inline-block;
+	font-size: 0px;
+	margin-bottom: 10px;
+}
+.promtionItem:nth-child(2n) {
+	margin-left: 1%
+}
+.promtionItem:nth-child(2n +1) {
+	margin-right: 1%
+}
+.promtionItem img {
+	width: 100%;
+	background-color: #f5f5f5
+}
+.promtionItemBox {
+	position: relative;
+	width: 100%;
+	height: 3.6rem;
+	overflow: hidden;
+	background-color: #d2d2d2;
+	margin-bottom: 10px;
+}
+.promtionItemBox  .name {
+	position: absolute;
+	bottom: 5px;
+	width: 100%;
+	text-align: center;
+	font-family: Roboto-Bold;
+	font-size: 14px;
+	font-weight: normal;
+	font-stretch: normal;
+	line-height: 30px;
+	letter-spacing: 0px;
+	color: #ffffff;
+	transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out; 
+}
+.proBannerBox {
+	width: 100%;
+	margin-bottom: 20px;
+}
+.proBannerBox img {
+	height: 3.6rem;
+	margin: auto;
+	max-width: 100%;
+}
+.promtionBox {
+	width: 100%
+}

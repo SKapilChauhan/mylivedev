@@ -1,0 +1,114 @@
+/*评论*/
+.ratingBox {
+	display: flex;
+	border-bottom: 1px solid #e2e2e2;
+}
+.ratingStarBox {
+	flex:  0 0 100px;
+}
+.ratingStarBox .ptext {
+	padding: 10px 0px 0px 0px;
+	line-height: 18px;
+	width: 107px;
+	color: #666666;
+	font-size: 12px;
+	font-weight: 400;
+}
+.ratingStar {
+	padding: 5px 10px;
+	border-radius: 4px;
+	background-color: #24d144;
+	color: #fff;
+	background-image: linear-gradient(45deg, #24d144 0%, #42e75c 100%);
+}
+.ratingStar .text {
+	margin-right: 2px
+}
+.ratingStar .iconfont {
+	color: #fff;
+}
+.ratingCountBox {
+	flex: 1;
+}
+.ratingCountBox li {
+	margin-bottom: 10px;
+	position: relative;
+	display: flex;
+	align-items: center;
+}
+.ratingCountBox li>span {
+	display: inline-block;
+}
+.ratingCountBox .text {
+	flex: 0 0  75px;
+}
+.progress {
+	flex: 1;
+	background-color: #eee;
+	border-radius: 4px;
+	background-color: #eeeeee;
+	height: 10px;
+	padding-right: 5px;
+}
+.ratingCountBox .count {
+	width: 50px;
+	flex: 0 0  50px;
+}
+.progressBar {
+	display: block;
+	background-color: #24d144;
+	width: 0%;
+	height: 100%;
+	border-radius: 4px;
+}
+.reviewsListBlock {
+	background-color: #ffffff;
+	padding: 10px;
+}
+.reviewsListBox .reviewsListItem {
+	padding: 10px 0px;
+	border-bottom: 1px solid #e2e2e2;
+}
+.reviewsListItem .title {
+	color: #333333;
+}
+.reviewsListItem .star {
+	margin-top: 10px;
+}
+.reviewsListItem .iconfont {
+	font-size: 20px;
+	color: #dddddd
+}
+.reviewsListItem .iconfont.selected {
+	color: #f6ac71
+}
+.reviewsListItem .content {
+	color: #666666;
+	font-size: 12px;
+	padding: 10px 0px;
+}
+.reviewsListItem .imgList{
+   padding: 10px 0px 0px 0px;
+}
+.reviewsListItem .imgListitem {
+    display: inline-block;
+    vertical-align: middle;
+    width: 100px;
+    padding-right: 15px;
+    margin-right: -4px;
+    max-width: 33.3%;
+    margin-bottom: 10px;
+}
+.reviewsListItem .imgListitem img {
+    width: 100px;
+}
+.toReview {
+	text-align: center;
+	padding: 10px 0px;
+}
+.toReview .text {
+	margin-right: 5px;
+	color: #3b9aea;
+	font-size: 0.26rem;
+}
+/*评论*/
