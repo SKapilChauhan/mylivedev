@@ -39,7 +39,7 @@
     "not op_mini all"
   ],
   "devDependencies": {
-    "node-sass": "^4.11.0",
+    "node-sass": "^7.0.0",
     "react-app-rewire-css-modules": "codebandits/react-app-rewire-css-modules",
     "sass-loader": "^7.1.0"
   },
